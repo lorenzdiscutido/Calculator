@@ -16,7 +16,7 @@ while True:
         if operation == "1":
             print("Choice of operation: Addition")
             try:
-                #Ask for their first and second number
+                #Ask for their first and second number to add
                 num1 = float(input("Please enter your first number:"))
                 num2 = float(input("Please enter your second number:"))
                 sum = num1 + num2
@@ -25,6 +25,17 @@ while True:
                 print("Invalid. Please try again")
         
 #Subtract the numbers
+        elif operation == "2":
+            print("Choice of operation: Subtraction")
+            try:
+                #Ask for their first and second number to subtract
+                num1 = float(input("Please enter your first number:"))
+                num2 = float(input("Please enter your second number:"))
+                difference = num1 - num2
+                print(difference)
+            except ValueError:
+                print("Invalid. Please try again")
+
 #Multiply the numbers
 #Divide the number
 #Print the result of the operation
