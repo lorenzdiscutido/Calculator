@@ -6,6 +6,15 @@ print("Type 3 if you want to use Multiplication")
 print("Type 4 if you want to use Division")
 
 #Ask the user to what operation they like to use
+try:
+    while True:
+        operation = input("What operation would you like to use?: ")
+
+        #check if the choice of the user is between 1-4
+        if operation in ("1", "2", "3", "4"):
+except:
+    print("Please choose between 1-4")
+
 #Add the numbers
 #Subtract the numbers
 #Multiply the numbers
