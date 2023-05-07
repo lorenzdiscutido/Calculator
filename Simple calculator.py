@@ -1,5 +1,11 @@
-#Ask the user what operation they want to use
-#Make the user input numbers
+#Calculator guide
+print("Calculator operation")
+print("Type 1 if you want to use Addition")
+print("Type 2 if you want to use Subtraction")
+print("Type 3 if you want to use Multiplication")
+print("Type 4 if you want to use Division")
+
+#Ask the user to what operation they like to use
 #Add the numbers
 #Subtract the numbers
 #Multiply the numbers
