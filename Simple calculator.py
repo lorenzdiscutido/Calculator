@@ -6,16 +6,22 @@ print("Type 3 if you want to use Multiplication")
 print("Type 4 if you want to use Division")
 
 #Ask the user to what operation they like to use
-try:
-    while True:
-        operation = input("What operation would you like to use?: ")
+while True:
+    operation = input("What operation would you like to use?: ")
 
-        #check if the choice of the user is between 1-4
-        if operation in ("1", "2", "3", "4"):
-except:
-    print("Please choose between 1-4")
-
-#Add the numbers
+    #check if the choice of the user is between 1-4
+    if operation in ("1", "2", "3", "4"):
+        
+    #Add the numbers
+        if operation == "1":
+            print("Choice of operation: Addition")
+            try:
+                #Ask for their first and second number
+                num1 = float(input("Please enter your first number:"))
+                num2 = float(input("Please enter your second number:"))
+            except ValueError:
+                print("Invalid. Please try again")
+        
 #Subtract the numbers
 #Multiply the numbers
 #Divide the number
