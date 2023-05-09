@@ -24,7 +24,7 @@ while True:
             except ValueError:
                 print("Invalid. Please try again")
         
-#Subtract the numbers
+    #Subtract the numbers
         elif operation == "2":
             print("Choice of operation: Subtraction")
             try:
@@ -35,6 +35,19 @@ while True:
                 print(difference)
             except ValueError:
                 print("Invalid. Please try again")
+            
+    #Multiply thr numbers
+        elif operation == "3":
+            print("Choice of operation: Subtraction")
+            try:
+                #Ask for their first and second number to Multiply
+                num1 = float(input("Please enter your first number:"))
+                num2 = float(input("Please enter your second number:"))
+                product = num1*num2
+                print(product)
+            except ValueError:
+                print("Invalid. Please try again")
+
 
 #Multiply the numbers
 #Divide the number
